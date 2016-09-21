@@ -1,4 +1,17 @@
 Also look here https://github.com/puppetlabs/cpp-project-template
+## Creating a new project
+
+This is most simply accomplished with [Hub](https://hub.github.com/). The following commands will create a new GitHub project based on this template named `new-project` under the `puppetlabs` organization. Use Hub's `-p` option to create a private repo.
+
+```
+hub clone --depth 1 --origin source puppetlabs/cpp-project-template new-project
+cd new-project
+hub create puppetlabs/new-project [-p]
+git commit --amend # Rewrite the commit message, and erase the fact that it's a shallow copy
+git push origin new-project
+```
+
+Finally update the project() name in CMakeLists.txt.
 
 # Cpp-Project-Template
 
