@@ -1,3 +1,5 @@
+Also look here https://github.com/puppetlabs/cpp-project-template
+
 # Cpp-Project-Template
 
 [![Build Status](https://travis-ci.org/NewProggie/Cpp-Project-Template.svg?branch=master)](https://travis-ci.org/NewProggie/Cpp-Project-Template)
